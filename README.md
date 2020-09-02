@@ -19,3 +19,7 @@
 https://ide.klaytn.com/
 
     creation of MultiSigWallet errored: Error encoding arguments: Error: expected array value (arg="", coderType="array", type="string", value="")
+
+배포시 생성자에 지갑어드레스를 넣으면 value="" 에 지갑어드레스만 들어가고 에러가 다시 뜹니다.
+
+     creation of MultiSigWallet errored: Error encoding arguments: Error: expected array value (arg="", coderType="array", type="string", value="지갑 어드레스")
